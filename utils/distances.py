@@ -1,1 +1,5 @@
-pass  # YOUR CODE HERE
+def manhattan(a: tuple,b: tuple):
+    d_x = abs(b[0] - a[0])
+    d_y = abs(b[1] - a[1])
+    distance = d_x + d_y
+    return distance
